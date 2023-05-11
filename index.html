@@ -29,7 +29,7 @@
 
     <div class="col-lg-6 col-md-12 col-sm-12  inp mx-auto  ">
         <img src="sun-removebg-preview.png" alt="">
-      <h2 class="mt-1 ms-2 text-black text-center" id="changecolor" style="color: white;  border-radius: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Sigmar';-webkit-text-stroke: 0.5px rgb(0, 0, 0);text-shadow: 2px 1px 0.5px #00000041;"> Weather FORECAST <i class="fa-sharp fa-solid fa-cloud-sun-rain" style="color: rgba(240, 248, 255, 0.486);"></i></h2>
+      <h2 class="mt-1 ms-2 text-black text-center"  ><span id="changecolor"> Weather FORECAST</span> <i class="fa-sharp fa-solid fa-cloud-sun-rain" style="color: rgba(240, 248, 255, 0.486);"></i></h2>
       <div class="text-center mb-5 ">
 
        <span> <input type="text" class=" form-control w-50 mx-auto mt-4 " id="placeName" placeholder="Enter your location" style="margin-top: 10px; border: none;"></span>
@@ -241,7 +241,7 @@ function realtimeClock() {
     }
     else if(amPm=="PM" && hours>=1 && hours<4){
       document.body.style.backgroundImage="url(https://media.tenor.com/gznLWsJjaMAAAAAC/daytime-miving.gif)"
-      // document.getElementById("changecolor").style.color="red";
+
 
     }
     else if(amPm=="PM" && hours<7){
@@ -249,7 +249,7 @@ function realtimeClock() {
 
     }
     else{
-          
+                // document.getElementById("changecolor").style.
       document.body.style.backgroundImage="url(https://media.tenor.com/7SyjVdzFqmMAAAAC/stars-night.gif)"
     
     }

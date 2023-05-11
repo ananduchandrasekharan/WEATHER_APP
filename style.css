@@ -9,6 +9,11 @@
 }
 
 
+#changecolor{
+  color: white;  border-radius: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Sigmar';-webkit-text-stroke: 0.5px rgb(0, 0, 0);text-shadow: 2px 1px 0.5px #00000041;
+}
+
+
 
 
 
